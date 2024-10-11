@@ -81,6 +81,13 @@ dependencies {
 
         // Room KTX for coroutines support
         implementation("androidx.room:room-ktx:2.6.1")
+
+        // MockK
+        testImplementation("io.mockk:mockk:1.12.0")
+        // Coroutines Testing
+        testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
+        testImplementation("androidx.arch.core:core-testing:2.2.0")
+
     }
 
 }
