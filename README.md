@@ -53,6 +53,15 @@ walmartchallengexml
 │   │   └── ProductsResponse.kt     // API response object containing the product list
 │   ├── repository
 │   │   └── RepositoryImpl.kt       // Repository implementation handling API and database interactions
+│   ├── room
+│   │   ├── dao
+│   │   │   └── ProductDao.kt       // DAO for accessing product data in Room
+│   │   ├── db
+│   │   │   └── ProductDatabase.kt  // Room database configuration
+│   │   └── entity
+│   │       └── ProductEntity.kt    // Room entity representing a product in the database
+│   └── service
+│       └── ApiService.kt           // Retrofit service for API calls
 ├── domain
 │   ├── model
 │   │   └── Product.kt              // Domain model representing a product
@@ -64,15 +73,6 @@ walmartchallengexml
 │   ├── MainActivity.kt             // Main activity that displays the product list
 │   ├── MainViewModel.kt            // ViewModel managing product data and states
 │   └── ProductAdapter.kt           // Adapter for RecyclerView to display products
-├── room
-│   ├── dao
-│   │   └── ProductDao.kt           // DAO for accessing product data in Room
-│   ├── db
-│   │   └── ProductDatabase.kt      // Room database configuration
-│   └── entity
-│       └── ProductEntity.kt        // Room entity representing a product in the database
-└── service
-└── ApiService.kt               // Retrofit service for API calls
 ```
 
 ## Libraries Used
