@@ -1,6 +1,5 @@
 package com.irv205.walmartchallengexml.presentation
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.irv205.walmartchallengexml.core.util.ResponseHandler
