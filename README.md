@@ -36,6 +36,7 @@ This project follows **Clean Architecture**, with distinct layers:
 - **Presentation Layer**: Contains the UI components, ViewModels, and Adapters for the `RecyclerView`.
 
 ## Project Structure
+```bash 
 walmartchallengexml
 ├── core
 │   ├── di
@@ -72,6 +73,7 @@ walmartchallengexml
 │       └── ProductEntity.kt        // Room entity representing a product in the database
 └── service
 └── ApiService.kt               // Retrofit service for API calls
+```
 
 ## Libraries Used
 
